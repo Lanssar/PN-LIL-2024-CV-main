@@ -1,0 +1,81 @@
+
+*{
+    margin: 0;;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body {
+    background: rgba(9, 26, 35, 0.471);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#feuille {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0);
+}
+
+#feuille #gauche {
+    position: relative;
+    background: #159f846d;
+    padding: 40px;
+}
+
+#feuille #droit {
+    position: relative;
+    background: #7c7a7d6a;
+    padding: 40px;
+}
+
+#image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15vh;
+    height: 20vh;
+}
+
+
+#presentation {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#presentation h2 {
+    color: #000000;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+#competence li {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+#Titre {
+    color: #cd0909;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+    border: #000000 solid 2px;
+}
+
+#droit #experience #diplome #loisirs {
+text-align: justify;
+margin-bottom: 50px;
+}
